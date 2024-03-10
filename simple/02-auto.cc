@@ -17,5 +17,6 @@ int main()
 	cout << "i = " << i << endl;
 	cout << "type i = " << demangle(typeid(i).name()) << endl;
 	cout << "type txt = " << demangle(typeid(txt).name()) << endl;
+	cout << "type txt2 = " << typeid(txt).name() << endl;
 	return 0;
 }

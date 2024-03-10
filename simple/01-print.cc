@@ -4,6 +4,6 @@ using namespace std;
 
 int main(void)
 {
-	println("This {} a new {} to print things.", "is", "way");
+	println("This {1} a new {0} to print things.", "is", "way");
 	return 0;
 }

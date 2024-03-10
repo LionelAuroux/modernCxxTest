@@ -1,14 +1,11 @@
 #include <iostream>
-#include <cctype>
 
-using namespace std;
+//using namespace std;
 
 int main(void)
 {
-	cout << "This ";
-       	cout << toupper("his");
-       	cout << " the old ";
-       	cout << tolower("WAY");
-       	cout << " to print things." << endl;
+	std::cout << "This is";
+	std::cout << " the old way";
+	std::cout << " to print things." << std::endl;
 	return 0;
 }
